@@ -2,7 +2,7 @@
 
 A codemod to rescue you from a Immutable.js abuse.
 
-## Why?
+## Why
 
 [Immutable.js](https://facebook.github.io/immutable-js/) is a great library that helps you to remain your JavaScript objects immutable and provides you from a lot of data structures.
 
@@ -18,3 +18,9 @@ So this the main goal of this repository is provide you with a collection of cod
 ## Setup & Run
 
 1. `npm i -g jscodeshift` XOR `yarn global add jscodeshift`
+
+## Included scripts
+
+### getToStandardJSApi
+
+Transform any Immutable.js getter `get` to the standard JavaScript way to access to object props.
