@@ -1,0 +1,28 @@
+{
+  "name": "immutablejs-eraser-codemod",
+  "version": "0.1.0",
+  "description": "A codemod to rescue you from a Immutable.js abuse",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariosanchez/immutablejs-eraser-codemod.git"
+  },
+  "keywords": [
+    "codemod",
+    "immutable.js"
+  ],
+  "author": "Mario Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariosanchez/immutablejs-eraser-codemod/issues"
+  },
+  "homepage": "https://github.com/mariosanchez/immutablejs-eraser-codemod#readme",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
