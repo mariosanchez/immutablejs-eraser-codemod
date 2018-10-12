@@ -1,0 +1,10 @@
+{
+  "name": "get-to-js-bracket-notation-examples",
+  "private": true,
+  "version": "0.1.0",
+  "author": "devcorpio",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
+}
