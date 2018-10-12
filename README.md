@@ -19,20 +19,20 @@ We recommend that before use this tool ensure that you have a backup (for exampl
 
 ## Setup
 
-1. `npm install`
+- `npm install`
 
-**if you are working with yarn, use `yarn` instead of `npm` and `npx`**
+if you are working with **yarn**, use `yarn` instead of `npm` and `npx`
 
 ## Run
 
-1. `npx jscodeshift path_to_the_code_you_want_to_transform -t jscodeshift_transformer_file`
+- `npx jscodeshift path_to_the_code_you_want_to_transform -t jscodeshift_transformer_file`
 
 ## Running example:
 
  In order to ensure that you are executing correctly the code of the example be sure that you are in the **root directory** of immutablejs-eraser-codemod package :)
 
-`npm install --prefix examples/get-to-js-bracket-notation`
-`npx jscodeshift examples/get-to-js-bracket-notation/**.js -t transforms/getToStandardJSApi.js`
+- `npm install --prefix examples/get-to-js-bracket-notation`
+- `npx jscodeshift examples/get-to-js-bracket-notation/**.js -t transforms/getToStandardJSApi.js`
 
 ## Included scripts
 
