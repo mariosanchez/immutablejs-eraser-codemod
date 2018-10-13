@@ -39,3 +39,11 @@ if you are working with **yarn**, use `yarn` instead of `npm` and `npx`
 ### getToStandardJSApi
 
 Transform any Immutable.js getter `get` to the standard JavaScript way to access to object props.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/3275177?v=4" width="100px;"/><br /><sub><b>Mario Sánchez</b></sub>](https://github.com/mariosanchez)<br />[💻](https://github.com/mariosanchez/immutablejs-eraser-codemod/commits?author=mariosanchez "Code") [📖](https://github.com/mariosanchez/immutablejs-eraser-codemod/commits?author=mariosanchez "Documentation") [👀](#review-mariosanchez "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/15065076?v=4" width="100px;"/><br /><sub><b>Alberto Delgado Roda</b></sub>](https://github.com/devcorpio)<br />[📖](https://github.com/mariosanchez/immutablejs-eraser-codemod/commits?author=devcorpio "Documentation") [💡](#example-devcorpio "Examples") |
+| :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->

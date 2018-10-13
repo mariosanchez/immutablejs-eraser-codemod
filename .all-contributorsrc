@@ -1,0 +1,31 @@
+{
+  "projectName": "immutablejs-eraser-codemod",
+  "projectOwner": "mariosanchez",
+  "commit": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
+  "types": {},
+  "contributors": [
+    {
+      "login": "mariosanchez",
+      "name": "Mario Sánchez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3275177?v=4",
+      "profile": "https://github.com/mariosanchez",
+      "contributions": [
+        "code",
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "devcorpio",
+      "name": "Alberto Delgado Roda",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15065076?v=4",
+      "profile": "https://github.com/devcorpio",
+      "contributions": [
+        "doc",
+        "example"
+      ]
+    }
+  ],
+  "repoType": "github"
+}

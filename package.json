@@ -4,7 +4,9 @@
   "description": "A codemod to rescue you from a Immutable.js abuse",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "jscodeshift": "^0.5.1"
   },
   "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
     "eslint": "^5.6.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
