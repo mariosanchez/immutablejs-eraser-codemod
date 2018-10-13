@@ -15,9 +15,24 @@ Is time to erase it :fire:
 So this the main goal of this repository is provide you with a collection of codemod scripts for use with
 [JSCodeshift](https://github.com/facebook/jscodeshift) and other utils that help you to achieve this.
 
-## Setup & Run
+We recommend that before use this tool ensure that you have a backup (for example, if you don't have the source code versioned with tools like **git** :D)
 
-1. `npm i -g jscodeshift` XOR `yarn global add jscodeshift`
+## Setup
+
+- `npm install`
+
+if you are working with **yarn**, use `yarn` instead of `npm` and `npx`
+
+## Run
+
+- `npx jscodeshift path_to_the_code_you_want_to_transform -t jscodeshift_transformer_file`
+
+## Running example:
+
+ In order to ensure that you are executing correctly the code of the example be sure that you are in the **root directory** of immutablejs-eraser-codemod package :)
+
+- `npm install --prefix examples/get-to-js-bracket-notation`
+- `npx jscodeshift examples/get-to-js-bracket-notation/**.js -t transforms/getToStandardJSApi.js`
 
 ## Included scripts
 
